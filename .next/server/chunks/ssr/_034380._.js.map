@@ -1,0 +1,15 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/vboxuser/Documents/repos/openai-chatbot/src/app/Components/chatbot.js/proxy.mjs"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/src/app/Components/chatbot.js <module evaluation> from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/src/app/Components/chatbot.js <module evaluation>\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;AAAA;;uCACe,CAAA,GAAA,qPAAA,CAAA,0BAAuB,AAAD,EACjC;IAAa,MAAM,IAAI,MAAM;AAAiS,GAC9T,+DACA"}},
+    {"offset": {"line": 15, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["file:///home/vboxuser/Documents/repos/openai-chatbot/src/app/Components/chatbot.js/proxy.mjs"],"sourcesContent":["import { registerClientReference } from \"react-server-dom-turbopack/server.edge\";\nexport default registerClientReference(\n    function() { throw new Error(\"Attempted to call the default export of [project]/src/app/Components/chatbot.js from the server, but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.\"); },\n    \"[project]/src/app/Components/chatbot.js\",\n    \"default\",\n);\n"],"names":[],"mappings":";;;AAAA;;uCACe,CAAA,GAAA,qPAAA,CAAA,0BAAuB,AAAD,EACjC;IAAa,MAAM,IAAI,MAAM;AAA6Q,GAC1S,2CACA"}},
+    {"offset": {"line": 29, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 45, "column": 0}, "map": {"version":3,"sources":["file:///home/vboxuser/Documents/repos/openai-chatbot/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\n//import styles from \"./page.module.css\";\nimport ChatComponent from \"./Components/chatbot\";\nexport default function Home() {\n  return (\n      <div>\n        <ChatComponent />\n      </div>\n  );\n}\n"],"names":[],"mappings":";;;;AAAA;AACA,yCAAyC;AACzC;;;;AACe,SAAS;IACtB,qBACI,8OAAC;kBACC,cAAA,8OAAC,mIAAA,CAAA,UAAa;;;;;;;;;;AAGtB"}},
+    {"offset": {"line": 68, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 79, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 79, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
